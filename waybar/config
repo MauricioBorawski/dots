@@ -1,0 +1,48 @@
+{
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["pulseaudio", "memory","tray"],
+
+  "hyprland/workspaces": {
+		"format": "{icon}",
+		"on-click": "activate",
+		"format-icons": {
+			"1": "",
+			"2": "",
+			"3": "",
+			"4": "",
+			"5": "",
+			"6": "",
+			"7": "",
+			"8": "",
+			"9": "",
+			"urgent": "",
+			"default": ""
+			},
+		"sort-by-number": true
+	},
+
+  "pulseaudio": {
+		"scroll-step": 5,
+		"format": "{volume}% {icon}",
+		"format-icons": {
+			"default": [" ", " ", " "]
+		},
+	},
+
+   "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+
+    #custom-notif {
+      margin-left: 4px;
+      margin-right: 4px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 20px;
+      transition: none;
+      color: #4d4d4d;
+      background: rgb(238,130,238);
+    }
+}
