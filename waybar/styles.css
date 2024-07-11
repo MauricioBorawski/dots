@@ -1,0 +1,41 @@
+window {
+  background: transparent;
+  font-size: 18px;
+  color: #D3C6AA;
+}
+
+#clock {
+  padding: 4px 16px;
+  border-radius: 20px;
+  background: #1E2326;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#tray,
+#memory,
+#pulseaudio {
+  padding: 4px 16px;
+  border-radius: 20px;
+  background: #1E2326;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px 6px 0px 10px;
+  min-width: 25px;
+}
+
+#workspaces {
+  border-radius: 20px;
+  background: #1E2326;
+  padding: 4px 16px;
+}
+
+#workspaces button {
+  color: #D3C6AA;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#workspaces button:hover {
+  background: #4F5B58;
+}
