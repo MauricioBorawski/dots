@@ -1,6 +1,6 @@
 #window {
   border-radius: 12px;
-  background: #495156;
+  background: #2E383C;
   width: 40%;
 }
 
@@ -10,11 +10,11 @@
 }
 
 #inner-box {
-  background: #495156;
+  background: #2E383C;
 }
 
 #input {
-  background: #495156;
+  background: #2E383C;
   padding: 12px;
   color: #7FBBB3;
   font-size: 20px;
